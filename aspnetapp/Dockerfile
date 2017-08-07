@@ -1,13 +1,12 @@
 FROM microsoft/aspnetcore-build:1.1 AS build-env
 WORKDIR /app
-
-# copy csproj and restore as distinct layers
-COPY *.csproj ./
-RUN dotnet restore
-
-# copy everything else and build
+# copy everything within the project folder
 COPY . ./
+# restore as distinct layers
+RUN dotnet restore
+# build and publish bits
 RUN dotnet publish -c Release -o out
+
 
 # build runtime image
 FROM microsoft/aspnetcore:1.1
