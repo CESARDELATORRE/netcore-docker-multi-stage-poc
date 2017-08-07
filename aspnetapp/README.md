@@ -7,13 +7,6 @@ The instructions assume that you already have [.NET Core 1.1](https://www.micros
 Instructions
 ------------
 
-First, prepare your environment by cloning the repository and navigating to the sample:
-
-```console
-git clone https://github.com/dotnet/dotnet-docker-samples/
-cd dotnet-docker-samples/aspnetapp
-```
-
 Follow these steps to run the sample locally:
 
 ```console
