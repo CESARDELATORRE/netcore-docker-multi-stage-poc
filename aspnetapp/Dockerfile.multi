@@ -1,0 +1,20 @@
+FROM microsoft/aspnetcore-build:1.1 AS build-env
+WORKDIR /src
+#ADD ../MyDomainLayerLib ./MyDomainLayerLib
+
+COPY . ./aspnetapp
+WORKDIR /src/aspnetapp
+
+# restore dependencies
+RUN dotnet restore
+
+# build and publish the bits into the "out" folder
+RUN dotnet publish -c Release -o out
+
+# build runtime image
+FROM microsoft/aspnetcore:1.1
+WORKDIR /app
+EXPOSE 80
+COPY --from=build-env /app/out .
+ENTRYPOINT ["dotnet", "WebMVC.dll"]
+

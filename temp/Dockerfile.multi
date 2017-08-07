@@ -1,0 +1,22 @@
+FROM microsoft/aspnetcore-build:1.1 AS build-env
+WORKDIR /src
+ADD ../../BuildingBlocks/DataProtection ./BuildingBlocks/DataProtection
+ADD ../../BuildingBlocks/HealthChecks ./BuildingBlocks/HealthChecks
+ADD ../../BuildingBlocks/Resilience ./BuildingBlocks/Resilience
+
+COPY . ./Web/WebMVC
+WORKDIR /src/Web/WebMVC
+
+# restore dependencies
+RUN dotnet restore
+
+# build and publish the bits into the "out" folder
+RUN dotnet publish -c Release -o out
+
+# build runtime image
+FROM microsoft/aspnetcore:1.1
+WORKDIR /app
+EXPOSE 80
+COPY --from=build-env /app/out .
+ENTRYPOINT ["dotnet", "WebMVC.dll"]
+
