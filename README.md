@@ -9,6 +9,7 @@ Instructions
 
 Follow these steps to test and run the sample locally:
 ```console
+cd aspnetapp
 dotnet restore
 dotnet run
 ```
