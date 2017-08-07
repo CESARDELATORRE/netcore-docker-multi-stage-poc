@@ -7,12 +7,19 @@ The instructions assume that you already have [.NET Core 1.1](https://www.micros
 Instructions
 ------------
 
-Follow these steps to run the sample locally:
-
+Follow these steps to test and run the sample locally:
 ```console
 dotnet restore
 dotnet run
 ```
+
+Generate the NuGet package for the Library (Dependency on MyDomainLayerLib)
+```console
+cd MyDomainLayerLib
+dotnet pack
+```
+Move the from MyDomainLayerLib.1.0.0.nupkg package file from the MyDomainLayerLib\bin\Debug to the local NuGet source: \aspnetapp\NugetPkgsLocalSource
+
 
 Follow these steps to run this sample in a Linux or Windows container:
 

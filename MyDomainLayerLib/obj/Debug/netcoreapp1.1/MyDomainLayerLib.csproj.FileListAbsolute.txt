@@ -1,0 +1,14 @@
+D:\GitRepos\aspnetapp-docker-multi-stage\MyDomainLayerLib\bin\Debug\netcoreapp1.1\MyDomainLayerLib.deps.json
+D:\GitRepos\aspnetapp-docker-multi-stage\MyDomainLayerLib\bin\Debug\netcoreapp1.1\MyDomainLayerLib.dll
+D:\GitRepos\aspnetapp-docker-multi-stage\MyDomainLayerLib\bin\Debug\netcoreapp1.1\MyDomainLayerLib.pdb
+D:\GitRepos\aspnetapp-docker-multi-stage\MyDomainLayerLib\obj\Debug\netcoreapp1.1\MyDomainLayerLib.csprojResolveAssemblyReference.cache
+D:\GitRepos\aspnetapp-docker-multi-stage\MyDomainLayerLib\obj\Debug\netcoreapp1.1\MyDomainLayerLib.AssemblyInfo.cs
+D:\GitRepos\aspnetapp-docker-multi-stage\MyDomainLayerLib\obj\Debug\netcoreapp1.1\MyDomainLayerLib.dll
+D:\GitRepos\aspnetapp-docker-multi-stage\MyDomainLayerLib\obj\Debug\netcoreapp1.1\MyDomainLayerLib.pdb
+D:\GitRepos\netcore-docker-multi-stage-poc\MyDomainLayerLib\bin\Debug\netcoreapp1.1\MyDomainLayerLib.deps.json
+D:\GitRepos\netcore-docker-multi-stage-poc\MyDomainLayerLib\bin\Debug\netcoreapp1.1\MyDomainLayerLib.dll
+D:\GitRepos\netcore-docker-multi-stage-poc\MyDomainLayerLib\bin\Debug\netcoreapp1.1\MyDomainLayerLib.pdb
+D:\GitRepos\netcore-docker-multi-stage-poc\MyDomainLayerLib\obj\Debug\netcoreapp1.1\MyDomainLayerLib.csprojResolveAssemblyReference.cache
+D:\GitRepos\netcore-docker-multi-stage-poc\MyDomainLayerLib\obj\Debug\netcoreapp1.1\MyDomainLayerLib.AssemblyInfo.cs
+D:\GitRepos\netcore-docker-multi-stage-poc\MyDomainLayerLib\obj\Debug\netcoreapp1.1\MyDomainLayerLib.dll
+D:\GitRepos\netcore-docker-multi-stage-poc\MyDomainLayerLib\obj\Debug\netcoreapp1.1\MyDomainLayerLib.pdb
