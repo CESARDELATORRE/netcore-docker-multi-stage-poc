@@ -1,4 +1,4 @@
-# aspnetapp Sample
+# aspnetapp MVC app with additional local reference to a .NET Core Class Library (MyDomainLayerLib) through a NuGet package and local NuGet source
 
 The aspnetapp sample demonstrates how to Dockerize an ASP.NET Core app. If you'd like to see how to Dockerize a .NET Framework app check out the [.NET Framework Docker samples](https://github.com/Microsoft/dotnet-framework-docker-samples).
 
