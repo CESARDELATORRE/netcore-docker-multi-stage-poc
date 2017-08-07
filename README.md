@@ -1,4 +1,4 @@
-# aspnetapp MVC app with additional local reference to a .NET Core Class Library (MyDomainLayerLib) through a NuGet package and local NuGet source
+# ASP.NET Core MVC app with additional local reference to a .NET Core Class Library (MyDomainLayerLib) through a NuGet package and local NuGet source
 
 The aspnetapp sample demonstrates how to Dockerize an ASP.NET Core app with additional local reference to a .NET Core Class Library (MyDomainLayerLib) through a NuGet package and local NuGet source
 
